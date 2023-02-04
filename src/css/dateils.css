@@ -1,0 +1,173 @@
+                                  /* Details*************** */
+.showcase-content{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.luna-content{
+  display: flex;
+  margin-left: 200px;
+}
+.lu{
+  width: 80px;
+  height: 80px;
+  background: #F0F6FF;
+  border-radius: 100%;
+}
+.luna-background{
+  padding-top:25px;
+  padding-left: 30px;
+}
+ .luna-havenese{
+  margin-top: 20px;
+  margin-left: 21px;
+} 
+
+.luna-dog{
+  margin-right:240px;
+}
+
+.luna-picture{
+  width: 760px;
+  height: 836px;
+  background: #F8FAFD;
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+.lun-picture{
+  padding-top: 20px;
+  padding-left: 37px; 
+}
+.cards-background{
+  width: 696px;
+  height: 277px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-left: 37px;
+  margin-top: 24px;
+}
+
+
+.dog-img-showcase{
+  padding: 15px 0px 0px 15px;
+}
+
+
+.showcase-cards{
+  padding: 17px 0px 0px 37px;
+}
+
+
+.case{
+  margin-left: 17px;
+}
+.case1{
+  margin-left: 17px;
+}
+.case2{
+  margin-left: 17px;
+}
+
+.description-background{
+  width: 696px;
+  height: 211px;
+  background:  #FFFFFF;;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-left: 37px;
+  margin-top: 22px;
+  padding-left: 27px;
+}
+
+
+.description-paragrah{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 163.5%;
+  color: #58667E;
+}
+.description{
+  width: 138px;
+  height: 39px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 163.5%;
+  color: #58667E;
+  padding-top: 10px;
+}
+
+.locate{
+  width: 147px;
+  height: 41px;
+  background: #F0F6FF;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.charlotte{
+  width: 91px;
+  height: 23px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 163.5%;
+  color: #0D75FF;
+  border: none;
+  background: none;
+}
+
+.location-charlotte{
+  padding-left: 15px;
+}
+
+.adopt-btn{
+  width: 155px;
+  height: 48px;
+  background: #0D75FF;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  margin-top: 34px;
+  margin-left: 32px;
+}
+
+.adopt-luna{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 163.5%;
+  color: #FFFFFF;
+  padding-top: 10px;
+  padding-left: 39px;
+  background: none;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

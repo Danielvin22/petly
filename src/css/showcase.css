@@ -1,0 +1,286 @@
+#showcase-content{
+  background-color: #E5E5E5;
+  height: 770px;
+  width: 100%;
+}
+
+.showcase{
+  display: flex;
+  justify-content: space-between;
+}
+
+.dog-img{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  height: 300px;
+  /* margin-top: 96px; */
+  margin: 96px 40px 0px 0px;
+} 
+
+.dog1{
+  width: 227px;
+  height: 215px;
+  /* background: url(.jpg); */
+  border-radius: 100px 0px 0px 0px;
+}
+.dog4{
+  width: 227px;
+  height: 215px;
+
+  border-radius: 0px 0px 100px 0px;
+}
+
+
+
+.find{
+  width: 100%;
+  padding-top: 154px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0D75FF;
+}
+
+.think{
+  width: 70%;
+  /* height: 116px; */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #344062;
+}
+
+.red{
+  color: #CB2E42;
+}
+
+.Adoption{
+  width: 75%;
+  /* height: 38px; */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #344062;
+}
+
+
+
+.showcase-btn{
+  position: relative;
+  background-color:#ffffff;
+  height: 230px;
+  width: 75%;
+  margin-top: 45px;
+}
+
+.search{
+  position: relative;
+  top: 17px;
+  left: 30px;
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  width: 722px;
+  background:#F8FAFD;;
+  border-radius: 999px;
+  
+}
+
+.opt{
+  padding-left: 10px;
+}
+
+select{
+  margin-top: 25px;
+  text-decoration: none;
+  border: none;
+  background: none;
+  /* padding-left: 10px; */
+  
+}
+.search-svg{
+  width: 80px;
+  height: 64px;
+  border: none;
+  background: #0D75FF;;
+  border-radius: 999px;
+}
+
+.location{
+  margin-left: 20px;
+}
+.location-select{
+  padding-right: 52px;
+}
+.Animal-select{
+  padding-right: 52px;
+}
+.breed-select{
+  padding-right: 52px;
+}
+
+.looking{
+  width: 194px;
+  height: 22px;
+  margin-top: 40px;
+  margin-left: 30px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #58667E;
+}
+
+.dog-cancel{
+  display: flex;
+  justify-content: flex-start;
+  margin: 30px 0px 0px 30px;
+  width: 79px;
+  height: 45px;
+  background: rgba(13, 117, 255, 0.05);
+  border-radius: 10px;
+
+}
+.cancel-svg{
+  width: 16px;
+  height: 16px;
+}
+
+
+.Dog-select{
+  /* padding-top: 15px; */
+  padding: 15px 0px 0px 10px;
+}
+.cancel-svg{
+  margin: 15px 0px 0px 10px;
+}
+
+.BOX1{
+  width: 60px;
+  height: 49px;
+  background: #245997;
+}
+.BOX2{
+  width: 60px;
+  height: 49px;
+  background:  #E1AB21;
+}
+.BOX3{ 
+  width: 60px;
+  height: 49px;
+  background: #D21A30;
+  margin-top: 48px;
+}
+.BOX4{
+  width: 60px;
+  height: 49px;
+  background: #7C97B6;
+  margin-top: 96px;
+}
+.all-boxs{
+  display: flex;
+  justify-content: end;
+  position: relative;
+  bottom: 50px;
+ 
+}
+.all-box{
+  display: flex;
+  position: relative;
+  left: 120px; 
+}
+
+
+@media screen and (max-width:768px){
+
+  .dog-img{
+    display: none;
+  }
+
+  .specail-pets{
+    margin-left: 30px;
+  }
+
+
+  .search{
+    display: block;
+    height: 64px;
+    width:100%;
+  }
+  .animal-btn{ 
+    height: 64px;
+    width: 100%;
+    background:#F8FAFD;;
+    border-radius: 999px;
+    margin-top: 40px;
+  }
+  .breed-btn{
+    height: 64px;
+    width: 100%;
+    background:#F8FAFD;;
+    border-radius: 999px;
+    margin-top:15px;
+  }
+
+  .showcase-btn{
+    background: none;
+  }
+
+  .search-svg{
+    display: none;
+  }
+  .looking{
+    margin-top: 200px;
+    margin-left: 40px;
+  }
+
+  .dog-cancel{
+    margin-left: 30px;
+  }
+
+  .all-boxs{
+    display: none;
+  }
+
+  .dog3-svg{
+    margin-left: 30px;
+   
+  }
+  .breed-btn-svg{
+    margin-left: 30px;
+  }
+  .location-select{
+    padding-right: 200px;
+  }
+  .Animal-select{
+    padding-right:200px;
+  }
+  .breed-select{
+    padding-right: 200px;
+  }
+
+  .location{
+    padding-left: 20px;
+  }
+
+}
+
+@media screen and (max-width:500px){
+  .animal-btn{ 
+    height: 64px;
+    width: 200px;
+    
+  }
+  .breed-btn{
+    height: 64px;
+      width: 100%;
+ }
+ 
+}
