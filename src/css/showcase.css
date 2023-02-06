@@ -257,25 +257,25 @@ select{
     margin-left: 30px;
   }
   .location-select{
-    padding-right: 200px;
-  }
+    padding-right: 100px;
+   }
   .Animal-select{
-    padding-right:200px;
+    padding-right:100px;
   }
   .breed-select{
-    padding-right: 200px;
+    padding-right: 100px;
   }
 
   .location{
     padding-left: 20px;
-  }
+  } 
 
 }
 
 @media screen and (max-width:500px){
   .animal-btn{ 
     height: 64px;
-    width: 200px;
+    width: 100%;
     
   }
   .breed-btn{

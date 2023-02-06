@@ -97,7 +97,6 @@ bottom: 5px;
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
-  line-height: 44px;
   color: #666879;
   }
 
@@ -223,11 +222,20 @@ padding-right: 140px;
     margin-left: 20px;
      
   }
+
 }
 @media screen and (max-width:375px){
   .browse-type{
-    
+    width: 100px;
+    height: 20px;
+    font-size: 8px;
+   
+
+
   }
+
+
+
 }
 
 
