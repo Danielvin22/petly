@@ -1,5 +1,5 @@
 #showcase-content{
-  background-color: #E5E5E5;
+  background-color: #f0f6ff;
   height: 770px;
   width: 100%;
 }
@@ -104,6 +104,8 @@ select{
   /* padding-left: 10px; */
   
 }
+
+
 .search-svg{
   width: 80px;
   height: 64px;
@@ -208,6 +210,11 @@ select{
     margin-left: 30px;
   }
 
+  .think{
+    width: 300px;
+    font-size: 35px;
+  }
+
 
   .search{
     display: block;
@@ -272,15 +279,7 @@ select{
 
 }
 
-@media screen and (max-width:500px){
-  .animal-btn{ 
-    height: 64px;
-    width: 100%;
-    
-  }
-  .breed-btn{
-    height: 64px;
-      width: 100%;
- }
- 
-}
+
+
+
+

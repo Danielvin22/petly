@@ -1,0 +1,100 @@
+.skeleton{
+width: 327px;
+height: 323px;
+background: #FFFFFF;
+border: 1px solid #F0F6FF;
+border-radius: 5px;
+}
+
+
+
+.skeleton-card{
+  width: 277px;
+  height: 165px;
+  background: #E9EEF5;
+  border-radius: 5px;
+  margin: 21px 0px 0px 26px;
+}
+.skeleton-content{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px 0px 20px;
+
+}
+
+.skeleton-h3{
+  width: 105px;
+  height: 16px;
+  background: #F0F6FF;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.skeleton-h4{
+  width: 74px;
+  height: 6px;
+  background: #F0F6FF;
+  border-radius: 10px;
+  margin-top: 10px;
+  
+}
+
+.skeleton-content-dog{
+  width: 30px;
+  height: 30px;
+  background: #F0F6FF;
+  border-radius: 100%;
+  margin-top: 25px;
+}
+
+.skeleton-view{
+  width: 121px;
+  height: 39px;
+  background: #F0F6FF;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+.skeleton-svg{
+  width: 25px;
+  height: 25px;
+  background: #F0F6FF;
+  border-radius: 100%;
+  margin-top: 10px;
+}
+.skeleton-W{
+  width: 68px;
+  height: 16px;
+  background: #F0F6FF;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.skeleton-content2{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px 0px 20px;
+
+}
+.skeleton-seattle{
+  display: flex;
+  justify-content: space-between;
+  /* gap: 5px; */
+  
+
+}
+
+
+
+
+
+
+
+
+**************************
+.l-skeleton{
+ width: 80px;
+height: 80px;
+background: #F0F6FF;
+border-radius: 100%;
+
+}

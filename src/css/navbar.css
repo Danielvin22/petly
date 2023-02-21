@@ -9,7 +9,7 @@
   justify-content: space-between;
 }
 
-/* .petly{
+.petly{
   width: 59px;
   height: 29px;
   font-family: 'Inter';
@@ -17,7 +17,7 @@
   font-weight: 500;
   font-size: 24px;
   color: #344062;
-} */
+}
 
 
 .logo-svg{
@@ -98,6 +98,18 @@ ul{
   .find-report{
     display: none;
   }
+}
+@media screen and (max-width:400px){
+  .report-missing{
+    width:160px;
+    padding-left: 50px;
+  }
+
+  .svg-light{
+    margin-left:0px;
+   
+  }
+ 
 }
 @media screen and (max-width:375px){
  .find-report{

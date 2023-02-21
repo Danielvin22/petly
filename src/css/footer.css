@@ -141,7 +141,25 @@ padding-right: 20px;
   .last-footer{
     margin-top: 80px;
   }
+
  
 
+
+  .terms{
+    width: 140px;
+  }
+  .policy{
+    width: 100px;
+  }
+}
+
+@media screen and (max-width:375px){
+
+  .footer-content3{
+    margin-right: 100px;
+  }
+ 
+
+  
 }
 

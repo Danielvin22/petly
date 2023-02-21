@@ -1,15 +1,17 @@
  #cards{
-  height: 1300px;
+  height: 100%;
   width: 100%;
   background-color: #FFFFFF; 
 }
 
 .card1{
-  padding-left: 25px;
-  padding: 21px 0px 0px 26px;
-  width: 275px;
+  width: 277px;
   height: 165px;
+  /* padding-left: 25px; */
+  margin: 21px 0px 0px 21px;
+  
 }
+
 
 
 a{
@@ -31,6 +33,7 @@ a{
   margin-top: 24px;
   border: 1px solid #F0F6FF;
   border-radius: 5px; 
+
 }
 .luna{
   display: flex;
@@ -91,12 +94,11 @@ bottom: 5px;
 }
 
 .browse-type{
-  width: 451px;
   height: 44px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 36px;
+  font-size: 30px;
   color: #666879;
   }
 
@@ -224,18 +226,16 @@ padding-right: 140px;
   }
 
 }
-@media screen and (max-width:375px){
+@media screen and (max-width:500px){
   .browse-type{
     width: 100px;
     height: 20px;
     font-size: 8px;
-   
-
-
   }
+}
 
-
-
+#cards{
+  width: 100%;
 }
 
 
