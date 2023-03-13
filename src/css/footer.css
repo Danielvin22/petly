@@ -16,9 +16,6 @@
   margin-right: 40px;
 
 }
-
-
-
 .footer-content1{
 display: flex;
 justify-content: space-between;
@@ -28,6 +25,7 @@ justify-content: space-between;
 .paragrah-btn{
 text-align: center;
 align-items: center;
+
 }
 
 .wordlens{  
@@ -101,7 +99,7 @@ padding-right: 20px;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
-  line-height: 58px;
+ 
   color: #58667E;
   
 }
@@ -128,9 +126,7 @@ padding-right: 20px;
   }
 
 
-  .petly-p{
-    padding-top: 40px;
-  }
+ 
   .petly-btn{
     margin-top: 80px;
   }
