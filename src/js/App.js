@@ -1,5 +1,5 @@
  async function start() {
-  const response = await fetch("https://pets-v2.dev-apis.com/pets")   
+  // const response = await fetch("https://pets-v2.dev-apis.com/pets")   
   const data =  await response.json()
    createPetList(data.pets)
   console.log(data)
@@ -11,7 +11,7 @@ const createPetList = (pet) => {
   <div class="cards-display">
    ${pet.map(data_url => `
       <div class="cards-content"> 
-        <img id="dog-card" class="card1" src=${data_url.images[0]} alt="">
+        <img id="dog-card" class="card1" src=${""} alt="">
       
         <div class="luna">
           <div>

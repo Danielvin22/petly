@@ -1,22 +1,19 @@
  #cards{
   height: 1300px;
   width: 100%;
-  background-color: #FFFFFF; 
+  background-color: #ffffff; 
 }
 
-
-
-
-.cards-display{
+.display{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-right:30px;
 }
 
-.card1{
-  width: 260px;
-  height: 165px;
+.card-img{
+  width: 275px;
+  height: 160px;
   margin: 21px 0px 0px 21px;
   
 }
@@ -35,32 +32,33 @@ a{
   color: #FFFFFF;
 }
 
-.cards-content{
+.content1{
   width: 310px;
-  height: 323px;
+  height: 100%;
   background: #FFFFFF;
   margin-top: 24px;
   border: 1px solid #F0F6FF;
   border-radius: 5px; 
+  padding-bottom: 10px;
 
 }
-.luna{
+.lun{
   display: flex;
   justify-content: space-between;
   padding: 16px 21px 0px 26px;
   
 }
 
-.search-location{
+.search2{
   display: flex;
   justify-content: space-between;
-  padding: 17px 26px 0px 26px;
+  padding: 17px 0px 0px 26px;
 }
-.seattle{
+/* .set{
  position: relative;
-bottom: 5px;
+ bottom: 5px;
   
-}
+} */
 .location-svg{
   position: relative;
   right: 30px;
@@ -68,7 +66,7 @@ bottom: 5px;
 }
 
 
-.seattle-wa{ 
+.set-wa{ 
   width: 77px;
   height: 17px;
   font-family: 'Inter';
