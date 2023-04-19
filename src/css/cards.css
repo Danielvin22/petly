@@ -1,87 +1,71 @@
  #cards{
-  height: 1300px;
+  height: 100%;
   width: 100%;
   background-color: #ffffff; 
 }
 
-.display{
+.content-display{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-right:30px;
 }
 
-.card-img{
+.boxx{
+width: 327px;
+height: 333px;
+background: #FFFFFF;
+border: 1px solid #F0F6FF;
+border-radius: 5px;
+margin-top: 24px;
+}
+
+.boxx-img{
   width: 275px;
-  height: 160px;
-  margin: 21px 0px 0px 21px;
+  height: 165px;
+  border-radius: 5px;
+  margin: 21px 0px 36px 26px;
+}
+
+.dogs-name{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 26px 0px 26px;
+}
+
+button{
+  width: 121px;
+  height: 39px; 
+  background: #0D75FF;
+  border-radius: 30px;
+  border: none;
   
+}
+.location-svg{
+  height: 18px;
+  width: 16px;
 }
 
 
 
 a{
-  text-decoration: none;
-  width: 76px;
-  height: 16px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 16px;
-  color: #FFFFFF;
-}
-
-.content1{
-  width: 310px;
-  height: 100%;
-  background: #FFFFFF;
-  margin-top: 24px;
-  border: 1px solid #F0F6FF;
-  border-radius: 5px; 
-  padding-bottom: 10px;
-
-}
-.lun{
-  display: flex;
-  justify-content: space-between;
-  padding: 16px 21px 0px 26px;
-  
-}
-
-.search2{
-  display: flex;
-  justify-content: space-between;
-  padding: 17px 0px 0px 26px;
-}
-/* .set{
- position: relative;
- bottom: 5px;
-  
-} */
-.location-svg{
-  position: relative;
-  right: 30px;
-  top: 20px;
-}
-
-
-.set-wa{ 
-  width: 77px;
-  height: 17px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  color: #AFB6C1;
-} 
-.view{
-  width: 121px;
-  height: 39px;
   border: none;
-  background: #0D75FF;
-  border-radius: 30px;
+  color: #ffffff;
+  text-decoration: none;
+  /* margin-top: 10px; */
+}
+
+.button-city{
+  display:flex;
+  justify-content: space-between;
+  padding: 0px 26px 0px 22px;
+  margin-top: 10px;
+
+}
+.city-wa{
+  margin-top: 10px;
+} 
+ .location-svg{
+  margin-top: 12px;
 }
 
 .browse{
